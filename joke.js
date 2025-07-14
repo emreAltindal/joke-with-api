@@ -21,4 +21,4 @@ const generateJoke = () => {
 };
 
 jokeBtn.addEventListener('click', generateJoke);
-document.addEventListener('DOMContentLoaded', generateJoke);//DOM a yazılmasını sağlar (sayfa yükledindiğinde tekrar gitmesin diye)
+document.addEventListener('DOMContentLoaded', generateJoke);
